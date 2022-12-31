@@ -8,18 +8,23 @@ class AppBarPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.deepPurple[600],
-        elevation: 0,
-        leading: Icon(Icons.menu),
-        shadowColor: Colors.deepPurpleAccent,
-        title: Text('F L U T T E R'),
-        actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.share)),
-          IconButton(onPressed: () {}, icon: Icon(Icons.person)),
-        ],
-      ),
-      body: Center()
-    );
+        appBar: AppBar(
+          backgroundColor: Colors.deepPurple[600],
+          elevation: 0,
+          leading: Icon(Icons.menu),
+          shadowColor: Colors.deepPurpleAccent,
+          title: Text('F L U T T E R'),
+          actions: [
+            IconButton(onPressed: () {}, icon: Icon(Icons.share)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.person)),
+          ],
+        ),
+        body: Center(
+          child: Text(
+            'App Bar',
+            style: TextStyle(
+                color: Colors.black, fontSize: 30, fontWeight: FontWeight.w300),
+          ),
+        ));
   }
 }

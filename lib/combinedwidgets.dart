@@ -1,6 +1,24 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:widgets/slider.dart';
+import 'package:widgets/slideto.dart';
+import 'package:widgets/timePicker.dart';
+import 'package:widgets/mediaquery.dart';
+import 'container.dart';
+import 'columnrows.dart';
+import 'dragdrop.dart';
+import 'expanded.dart';
+import 'gridviewbuilder.dart';
+import 'listviewbuilder.dart';
+import 'gestureDetector.dart';
+import 'bottomNavBar.dart';
+import 'appbar.dart';
+import 'drawer.dart';
+import 'alertDialog.dart';
+import 'animatedcontainer.dart';
+import 'datepicker.dart';
+
 
 class combinedWidgets extends StatefulWidget {
   const combinedWidgets({super.key});
@@ -29,7 +47,10 @@ class _combinedWidgetsState extends State<combinedWidgets> {
                   ),
                   Text(
                     'Container Widget',
-                    style: TextStyle(color: Colors.white, fontSize: 30,fontWeight: FontWeight.w300),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 30,
+                        fontWeight: FontWeight.w300),
                   ),
                   SizedBox(
                     height: 50,
@@ -47,9 +68,23 @@ class _combinedWidgetsState extends State<combinedWidgets> {
             ),
           ),
         ),
-        Container(
-          color: Colors.deepPurpleAccent,
-        )
+        AppBarPage(),
+        ColumnRow(),
+        sliderPage(),
+        slideto(),
+        timePicker(),
+        MediaQueryPage(),
+        ContainerPage(),
+        drapDropPage(),
+        ExpandedPage(),
+        ListViewBuilder(),
+        GridViewBuilder(),
+        gestureDetector(),
+        BottomNavBar(),
+        DrawerPage(),
+        AnimatedContainerPage(),
+        datePicker(),
+        alertDialogPage(),
       ],
     );
   }

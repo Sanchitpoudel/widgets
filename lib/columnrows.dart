@@ -7,7 +7,7 @@ class ColumnRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
         
         Container(
@@ -45,6 +45,7 @@ class ColumnRow extends StatelessWidget {
           color: Colors.deepPurple[400],
         ),
       ]),
+      
     );
   }
 }
