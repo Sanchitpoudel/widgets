@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:widgets/combinedwidgets.dart';
 import 'package:widgets/slider.dart';
 import 'package:widgets/slideto.dart';
 import 'package:widgets/timePicker.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       debugShowCheckedModeBanner: false,
-      home: drapDropPage(),
+      home: combinedWidgets(),
     );
   }
 }
