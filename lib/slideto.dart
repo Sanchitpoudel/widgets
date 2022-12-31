@@ -5,6 +5,7 @@ class slideto extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.deepOrangeAccent,
       body: Center(
         
         child: Padding(

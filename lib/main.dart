@@ -5,20 +5,21 @@ import 'package:widgets/slider.dart';
 import 'package:widgets/slideto.dart';
 import 'package:widgets/timePicker.dart';
 
-//import 'package:widgets/mediaquery.dart';
-//import 'package:widgets/slider.dart';
-//import 'container.dart';
-//import 'columnrows.dart';
-//import 'expanded.dart';
-//import 'gridviewbuilder.dart';
-//import 'listviewbuilder.dart';
-//import 'gestureDetector.dart';
-//import 'bottomNavBar.dart';
-//import 'appbar.dart';
-//import 'drawer.dart';
-//import 'alertDialog.dart';
-//import 'animatedcontainer.dart';
-//import 'datepicker.dart';
+import 'package:widgets/mediaquery.dart';
+import 'package:widgets/slider.dart';
+import 'container.dart';
+import 'columnrows.dart';
+import 'dragdrop.dart';
+import 'expanded.dart';
+import 'gridviewbuilder.dart';
+import 'listviewbuilder.dart';
+import 'gestureDetector.dart';
+import 'bottomNavBar.dart';
+import 'appbar.dart';
+import 'drawer.dart';
+import 'alertDialog.dart';
+import 'animatedcontainer.dart';
+import 'datepicker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       debugShowCheckedModeBanner: false,
-      home: slideto(),
+      home: drapDropPage(),
     );
   }
 }
