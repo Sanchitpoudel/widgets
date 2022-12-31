@@ -15,6 +15,7 @@ import 'package:widgets/slider.dart';
 //import 'drawer.dart';
 import 'alertDialog.dart';
 import 'animatedcontainer.dart';
+import 'datepicker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       debugShowCheckedModeBanner: false,
-      home: sliderPage(),
+      home: datePicker(),
     );
   }
 }
