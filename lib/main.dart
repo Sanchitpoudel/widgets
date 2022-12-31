@@ -1,6 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:widgets/slider.dart';
+import 'package:widgets/slideto.dart';
 import 'package:widgets/timePicker.dart';
 
 //import 'package:widgets/mediaquery.dart';
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       debugShowCheckedModeBanner: false,
-      home: timePicker(),
+      home: slideto(),
     );
   }
 }
