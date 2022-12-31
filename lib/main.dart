@@ -12,7 +12,9 @@ import 'package:widgets/mediaquery.dart';
 //import 'bottomNavBar.dart';
 //import 'appbar.dart';
 //import 'drawer.dart';
+import 'alertDialog.dart';
 import 'animatedcontainer.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       debugShowCheckedModeBanner: false,
-      home: MediaQueryPage(),
+      home: alertDialogPage(),
     );
   }
 }
