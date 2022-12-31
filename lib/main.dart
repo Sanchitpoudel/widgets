@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:widgets/mediaquery.dart';
+import 'package:widgets/slider.dart';
 
 //import 'container.dart';
 //import 'columnrows.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       debugShowCheckedModeBanner: false,
-      home: alertDialogPage(),
+      home: sliderPage(),
     );
   }
 }
