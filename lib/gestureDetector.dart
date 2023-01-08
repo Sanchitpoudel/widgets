@@ -19,6 +19,7 @@ class _gestureDetectorState extends State<gestureDetector> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 194, 187, 207),
       body: Center(
         child: Column(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             // ignore: prefer_const_literals_to_create_immutables
